@@ -22,7 +22,7 @@ body {
 
 .link: :hover,
 .link: :focus {
-    color: var(--pressed-state-color);
+    color: #404BBF;
 }
 
 .link {
@@ -41,11 +41,7 @@ body {
 }
 
 .logo-dark-part {
-    color: var(--dark-title-color);
-}
-
-.logo-blue {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .logo-light-part {
@@ -53,12 +49,8 @@ body {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -132,8 +124,6 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    width: 496px;
-    height: 120px;
 }
 
 .hero-btn {
@@ -143,7 +133,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    align-items: center;
 }
 
 .descr {
@@ -184,19 +173,17 @@ footer {
 
 .pf-btn:hover,
 .pf-btn:focus {
-    color: var(--white-background-color);
+    color: #404BBF;
 }
 
 .pf-btn {
     background-color: var(--light-body-color);
     color: var(--accent-color);
     border: 1px solid var(--light-accent-color);
-    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    align-items: center;
     text-align: center;
 }
 
