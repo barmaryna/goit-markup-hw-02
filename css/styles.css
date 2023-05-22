@@ -171,6 +171,10 @@ footer {
     letter-spacing: 0.02em;
 }
 
+.footer-span {
+    color: #f4f4fd;
+}
+
 .pf-btn:hover,
 .pf-btn:focus {
     color: #404BBF;
