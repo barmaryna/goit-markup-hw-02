@@ -20,8 +20,8 @@ body {
     background-color: var(--white-background-color);
 }
 
-.link: :hover,
-.link: :focus {
+.link:hover,
+.link:focus {
     color: #404BBF;
 }
 
