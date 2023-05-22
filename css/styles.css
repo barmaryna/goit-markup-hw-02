@@ -55,11 +55,6 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--dark-title-color);
 }
 
 .list {
@@ -197,11 +192,15 @@ footer {
 }
 
 .portfolio-p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--body-text-color);
+}
+.portfolio-h-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-title-color);
 }
