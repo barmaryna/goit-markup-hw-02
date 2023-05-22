@@ -63,7 +63,7 @@ body {
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--pressed-state-color);
+    background-color: #404bbf;
 }
 
 .btn {
